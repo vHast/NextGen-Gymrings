@@ -1,0 +1,222 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: 'PT Sans', sans-serif;
+  background-color: rgb(255, 236, 213);
+  
+}
+
+p {
+  font-size: 1.25rem;
+}
+
+ul {
+  list-style-type: none;
+}
+
+li {
+  font-size: 1.25rem;
+}
+/* Utilities */
+
+.italic-orange {
+  color: coral;
+  font-style: italic;
+}
+
+.sub-title {
+  font-size: 3.5rem;
+  text-align: center;
+}
+
+.btn {
+  padding: 0.5rem;
+  background-image: linear-gradient(rgb(255, 148, 109), rgb(255, 180, 130));
+  color: white;
+  text-decoration: none;
+  margin: 5px;
+  border-radius: 5px;
+  font-size: 1.20rem;
+}
+
+.btn:hover {
+  background-image: linear-gradient(rgb(255, 255, 255), rgb(255, 220, 196));;
+  color: coral;
+  transition: ease-in 0.2s;
+}
+/* Nav  */
+nav {
+  background-image: linear-gradient(rgb(14, 14, 14), rgba(70, 31, 0, 0.575));
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  opacity: 0.9;
+}
+nav ul {
+  list-style-type: none;
+  display: flex;
+  flex-direction: row;
+  align-content: center;
+  align-items: center;
+}
+
+nav ul li {
+  margin: auto;
+  padding: 1rem;
+  transition: ease-in 0.3s;
+}
+
+nav ul li:hover {
+  background-color: rgba(255, 135, 37, 0.438);
+}
+
+nav ul li a {
+  font-size: 1.3rem;
+  text-decoration: none;
+  color: white;
+}
+/* Container  */
+.showcase-container {
+  background-image: url(../img/gymrings.jpg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  height: 100vh;
+  width: 100%;
+}
+
+.showcase-text {
+  display: flex;
+  padding-top: 40vh;
+  flex-direction: column;
+  align-content: center;
+  align-items: center;
+  
+}
+
+.showcase-text h1 , h2 {
+  margin: auto;
+  text-align: center;
+  font-size: 3rem;
+  color: white;
+}
+
+.showcase-text p {
+  padding-top: 0.5rem;
+  color: white;
+  font-size: 1.5rem;
+}
+
+/* Introduction  */
+.section-format {
+  padding: 0rem 25rem;
+}
+.introduction-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.introduction-container h1 {
+  font-size: 3.5rem;
+  padding: 3rem 0;
+}
+
+.att-container{
+padding-top: 3rem;
+}
+
+.att-sheets-group {
+  background-image: linear-gradient(rgb(255, 148, 109), rgb(255, 180, 130));
+  background-size: cover;
+  border-radius: 5px;
+  padding: 1rem;
+  margin: 0.5rem;
+}
+
+.att-sheets-group-title {
+  display: flex;
+  flex-direction: row;
+  align-content: center;
+  align-items: center;
+}
+
+.att-sheets-group-title h1{
+  color: white;
+}
+
+.att-sheets-group-title p{
+  color: white;
+  text-align: left;
+}
+
+#att-4, #att-3, #att-2, #att-1{
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  text-align: center;
+}
+#att-1 h1 {
+  width: 30vw;
+}
+
+#att-2 h1 {
+  width: 50vw;
+}
+
+#att-3 h1 {
+  width: 55vw;
+}
+#att-4 h1 {
+  width: 48vw;
+}
+
+.banner {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-image: url(../img/gymrings.jpg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  height: 10vh;
+  width: 100%;
+}
+
+.banner h1{
+  margin: auto;
+  font-size: 3rem;
+  color: white;
+}
+
+.black-sec {
+  width: 100%;
+  height: 100vh;
+  background-image: linear-gradient(rgb(14, 14, 14), rgb(24, 24, 24));
+}
+.black-sec-title {
+  display: flex;
+  flex-direction: column;
+  color: white;
+  align-items: center;
+}
+
+.black-sec-title img {
+  margin-top: 1.5rem;
+  padding-left: 6rem;
+  width: 45%;
+}
+
+.black-sec-buttons {
+  display: flex;
+  flex-direction: row;
+}
+
+.black-sec-buttons li {
+  margin: auto;
+}
