@@ -32,6 +32,19 @@
   
 }
 
+@media (max-width: 768px) {
+  .black-sec {
+    width: 100%;
+    height: 60vh;
+  }
+  footer {
+    height: 4rem;
+  }
+  footer p {
+    font-size: 1rem;
+  }
+}
+
 @media (max-width: 1024px) {
   .section-format {
     padding: 0rem 2rem;
@@ -51,6 +64,10 @@
   .black-sec-buttons {
     padding-top: 2rem;
   }
+  .black-sec {
+    height: 75vh;
+  }
+  
 }
 
 @media (max-width: 414px) {
@@ -90,6 +107,13 @@
     padding-left: 3.7rem;
     width: 100%;
   }
+
+}
+
+@media (max-width: 375px) {
+  .black-sec {
+    height: 68vh;
+  }
 }
 
 @media (max-width: 320px) {
@@ -102,4 +126,9 @@
     border-radius: 5px;
     font-size: 1.20rem;
   }
+  .black-sec {
+    width: 100%;
+    height: 95vh;
+  }
 }
+
